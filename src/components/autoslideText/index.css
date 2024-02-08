@@ -1,0 +1,29 @@
+.autoslide {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    /* background: #0f0f0f; */
+}
+
+.autoslide .text__content {
+    width: 100%;
+    color: #FF5851;
+    /* display: inline-block; */
+    white-space: nowrap;
+    animation: marquee 60s linear infinite;
+    -webkit-animation: marquee 60s linear infinite;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

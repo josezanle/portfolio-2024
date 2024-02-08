@@ -1,0 +1,59 @@
+.footer{
+    max-width: 100vw;
+    height: 700px;
+    background: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .content{
+    width: 1200px;
+    display: flex;
+    background: #0f0f0f;
+    flex-flow: row;
+    color: #f1f1f1;
+}
+.footer .content .socialmedia{
+    width: 200px;
+}
+.footer .content .socialmedia .social__media__links
+{
+    color:#FF5851;
+}
+.footer .content .socialmedia .social__media__links,
+.footer .content .socialmedia p
+{
+    font-size: 20px;
+}
+/* ---------------------- */
+.footer .content .navigation{
+    width: 200px;
+}
+
+.footer .content .navigation .navigation__links{
+    color:#FF5851;
+}
+.footer .content .navigation .navigation__links,
+.footer .content .navigation p
+{
+    font-size: 20px;
+}
+/* ---------------------- */
+.footer .content .contact{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+.footer .content .contact .lets_talk{
+    font-size: 20px;
+    color:#FF5851;
+}
+.footer .content .contact .email{
+    font-size: 45px;
+    border-bottom: 2px solid #f1f1f1;
+}
+.footer .content .contact .phone{
+    font-size: 45px;
+    border-bottom: 2px solid #f1f1f1;
+}

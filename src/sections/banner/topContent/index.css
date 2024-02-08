@@ -1,0 +1,67 @@
+.top__container {
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+.top__container .left {
+    width: 50%;
+    height: 100%;
+    background: hsla(0, 0%, 100%, 0.250);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-flow: column;
+}
+
+.top__container .left .navbar__company {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__container .left .title {
+    line-height: 60px;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.top__container .left .paragraph {
+    width: 70%;
+    font-size: 35px;
+}
+
+.top__container .left .black__button {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1c1c1c;
+    font-weight: bold;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    color: #f1f1f1;
+    margin-top: 1.5em;
+    gap: 1em;
+}
+
+.top__container .left .black__button:hover {
+    color: white;
+}
+
+/* ------ */
+
+.top__container .right {
+    width: 50%;
+    height: 100%;
+}
+
+.top__container .right .imagen-overlay {
+    width:  100%;
+    height:  100%;
+    background-image: url('./logo.png');
+    background-repeat: round;
+}

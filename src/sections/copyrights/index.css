@@ -1,0 +1,23 @@
+.copyrights__section {
+    max-width: 100vw;
+    padding: 3em 0;
+    background: #0f0f0f;
+    display: flex;
+    justify-content: center;
+}
+.copyrights__section .content {
+    width: 1200px;
+    background: #0f0f0f;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+.copyrights__section .left,
+.copyrights__section .mid,
+.copyrights__section .right {
+    /* flex: 1; */
+    color: #f1f1f1;
+    /* background: #0f0f0f; */
+}

@@ -1,0 +1,8 @@
+.question__section{
+    max-width: 100vw;
+    height: 200vh;
+    background: #f4f3ee;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

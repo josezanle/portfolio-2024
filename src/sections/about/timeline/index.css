@@ -1,0 +1,52 @@
+.timeline {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.timeline .work_card{
+    width: 400px;
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.timeline .work_card .circle__job {
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background: #1c1c1c;
+    margin: 2em 0;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.timeline .work_card .circle__job:hover {
+    transform: scale(1.2);
+}
+.timeline .work_card .text{
+    flex: 1;
+    margin-left: 1em;
+}
+.timeline .work_card .title__job{
+    font-size: 20px;
+}
+.timeline .work_card .description{
+    font-size: 20px
+}
+
+
+.timeline .work_card .line{
+    width: 2px;
+    height: 50px;
+    position: absolute;
+    left: 2em;
+    bottom : -55px;
+    background: #f4f3ee;
+    border: none;
+    outline: none;
+}

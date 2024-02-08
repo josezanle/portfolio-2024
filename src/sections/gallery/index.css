@@ -1,0 +1,11 @@
+.gallery_section{
+    margin-top: -8em;
+    max-width: 100vw;
+    height: 200vh;
+    background: #f4f3ee;
+    border-radius: 8em 8em 0 0;
+    -webkit-border-radius: 8em 8em 0 0;
+    -moz-border-radius: 8em 8em 0 0;
+    -ms-border-radius: 8em 8em 0 0;
+    -o-border-radius: 8em 8em 0 0;
+}

@@ -1,0 +1,4 @@
+.logo__image{
+    /* mix-blend-mode: difference; */
+    z-index: 1000;
+}

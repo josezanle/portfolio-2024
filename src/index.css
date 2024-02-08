@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Catamaran', sans-serif;
+  user-select: none;
+}
+button, hr{
+  border: none;
+  outline: none;
+}
+button{
+  cursor: pointer;
+}
+
+html, body{
+  /* background: #f4f3ee; */
+  background: white;
+}

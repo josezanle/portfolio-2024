@@ -1,0 +1,16 @@
+.vertical__text {
+  position: fixed;
+  bottom: 7em;
+  color: #1c1c1c;
+  background-color: #f1f1f1;
+  mix-blend-mode: difference;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+
+  padding: 0 .5em;
+  font-variant-caps: all-small-caps;
+  font-size: 30px;
+}
